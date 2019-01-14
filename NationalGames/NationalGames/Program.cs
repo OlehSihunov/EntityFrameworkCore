@@ -1,5 +1,6 @@
 ﻿using System;
 using BLL;
+using System.Linq;
 namespace NationalGames
 {
     class Program
@@ -11,23 +12,27 @@ namespace NationalGames
            }
         static void Main(string[] args)
         {
-            StartExpoBLL();
-          //  StartExpoDAL();
+           // StartExpoBLL();
+           StartExpoDAL();
             Console.ReadLine();
         }
         public static void StartExpoDAL()
-        {
+        { 
             UnitOfWork unitOne = new UnitOfWork();
             var countries = unitOne.Countries.GetItemList();
-            foreach (var item in countries)
-            {
-                item.ShowItem();
-            }
             var games = unitOne.Games.GetItemList();
-            foreach (var item in games)
+            var list = from g in games
+                       join c in countries on g.CountryId equals c.Id
+                       select new
+                       {
+                           name = g.Name,
+                           country = c.Name          
+                       };
+            foreach (var item in list)
             {
-                item.ShowItem();
+                Console.WriteLine($"{item.name} <-----> {item.country}");
             }
+     
         }
         public static  void StartExpoBLL()
 
