@@ -3679,9 +3679,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\NationalGames.csproj",
-      "projectName": "NationalGames",
-      "projectPath": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\NationalGames.csproj",
+      "projectUniqueName": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\DAL.csproj",
+      "projectName": "DAL",
+      "projectPath": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\DAL.csproj",
       "packagesPath": "C:\\Users\\Ryota\\.nuget\\packages\\",
       "outputPath": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\obj\\",
       "projectStyle": "PackageReference",

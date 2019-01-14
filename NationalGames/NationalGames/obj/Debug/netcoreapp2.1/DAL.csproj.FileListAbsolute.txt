@@ -1,0 +1,11 @@
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\DAL.deps.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.dev.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\DAL.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\DAL.pdb
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\DAL.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\DAL.pdb
