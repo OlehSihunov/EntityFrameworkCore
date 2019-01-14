@@ -13,27 +13,10 @@ namespace NationalGames
         static void Main(string[] args)
         {
            // StartExpoBLL();
-           StartExpoDAL();
+         
             Console.ReadLine();
         }
-        public static void StartExpoDAL()
-        { 
-            UnitOfWork unitOne = new UnitOfWork();
-            var countries = unitOne.Countries.GetItemList();
-            var games = unitOne.Games.GetItemList();
-            var list = from g in games
-                       join c in countries on g.CountryId equals c.Id
-                       select new
-                       {
-                           name = g.Name,
-                           country = c.Name          
-                       };
-            foreach (var item in list)
-            {
-                Console.WriteLine($"{item.name} <-----> {item.country}");
-            }
-     
-        }
+        
         public static  void StartExpoBLL()
 
         {
