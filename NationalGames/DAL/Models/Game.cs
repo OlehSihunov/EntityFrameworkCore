@@ -8,12 +8,13 @@ namespace NationalGames
         public int Id { get; set; }
         public int? CountryId { get; set; }
         public string Name { get; set; }
+        public int? Year { get; set; }
 
         public virtual Country Country { get; set; }
         public void ShowItem()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"\nID: {this.Id}\nCountryID: {this.CountryId}\nName: {this.Name}\n");
+            Console.WriteLine($"\nID: {this.Id}\nCountryID: {this.CountryId}\nName: {this.Name}\nYear: {Year}\n ");
             Console.ForegroundColor = ConsoleColor.Gray;
         }
     }

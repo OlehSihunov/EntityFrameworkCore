@@ -1,50 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
 using System.Text;
-using System.Linq;
+using Microsoft.EntityFrameworkCore;
+
 namespace NationalGames
 {
-    class SQLCountryReprository : IRepository<Country>
-
+    public class SQLGameRepository : IRepository<Game>
     {
         private gamesContext db;
-        public SQLCountryReprository(gamesContext context)
+        
+        public SQLGameRepository(gamesContext context)
         {
             this.db = context;
         }
-       
-        public IEnumerable<Country> GetItemList()
-        {
-            return db.Countries;
-        }
 
-        public Country GetItem(int ID)
+        public void Create(Game item)
         {
-           return  db.Countries.Find(ID);
-        }
-
-        public void Create(Country country)
-        {
-            db.Countries.Add(country);
-        }
-
-        public void Update(Country country)
-        {
-            db.Entry(country).State = EntityState.Modified;
+            db.Games.Add(item);
         }
 
         public void Delete(int ID)
         {
-            Country country = db.Countries.Find(ID);
-            if (country != null)
-                db.Countries.Remove(country);
+            Game game = db.Games.Find(ID);
+            if (game != null)
+                db.Games.Remove(game);
+
+        }
+
+        public Game GetItem(int ID)
+        {
+            return db.Games.Find(ID);
+        }
+
+        public IEnumerable<Game> GetItemList()
+        {
+            return db.Games;
         }
 
         public void Save()
         {
-           db.SaveChanges();
+            db.SaveChanges();
         }
+
+        public void Update(Game game)
+        {
+            db.Entry(game).State = EntityState.Modified;
+        }
+
         #region IDisposable Support
         private bool disposedValue = false;
 
@@ -73,3 +75,4 @@ namespace NationalGames
         #endregion
     }
 }
+

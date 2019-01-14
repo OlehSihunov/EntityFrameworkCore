@@ -1,0 +1,16 @@
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.csprojAssemblyReference.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.csproj.CoreCompileInputs.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.AssemblyInfoInputs.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.AssemblyInfo.cs
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\View.deps.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\View.runtimeconfig.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\View.runtimeconfig.dev.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\View.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\View.pdb
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\BLL.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\DAL.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\BLL.pdb
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\DAL.pdb
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.csproj.CopyComplete
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.pdb

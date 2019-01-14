@@ -970,6 +970,33 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.1",
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.6"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
       }
     }
   },
@@ -3662,10 +3689,22 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BLL >= 1.0.0",
+      "DAL >= 1.0.0",
       "Microsoft.EntityFrameWorkCore.SqlServer >= 2.2.1",
       "Microsoft.EntityFrameWorkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameWorkCore.tools >= 2.2.1",
@@ -3679,9 +3718,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\DAL.csproj",
+      "projectUniqueName": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\View.csproj",
+      "projectName": "View",
+      "projectPath": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\View.csproj",
       "packagesPath": "C:\\Users\\Ryota\\.nuget\\packages\\",
       "outputPath": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\NationalGames\\obj\\",
       "projectStyle": "PackageReference",
@@ -3701,7 +3740,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\BLL\\BLL.csproj": {
+              "projectPath": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\BLL\\BLL.csproj"
+            },
+            "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\DAL\\DAL.csproj": {
+              "projectPath": "E:\\gitDemos\\MyEntityCoreProject\\NationalGames\\DAL\\DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

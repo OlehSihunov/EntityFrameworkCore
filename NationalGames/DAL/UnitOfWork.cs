@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NationalGames
 {
-    class UnitOfWork:IDisposable
+     public class UnitOfWork:IDisposable
     {
         private gamesContext db = new gamesContext();
         private SQLCountryReprository countryReprository;
