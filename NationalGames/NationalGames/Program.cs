@@ -12,8 +12,9 @@ namespace NationalGames
            }
         static void Main(string[] args)
         {
-           // StartExpoBLL();
-         
+            // StartExpoBLL();
+            UI ui = new UI();
+            ui.StartExpoDAL();
             Console.ReadLine();
         }
         
