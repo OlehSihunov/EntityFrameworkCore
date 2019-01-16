@@ -22,10 +22,10 @@ namespace NationalGames
 
         {
             YearChecker YearCheckerTwo = new YearChecker();
-            YearCheckerTwo.showNewestGame().ShowItem();
-            YearCheckerTwo.showOldestGame().ShowItem();
+            Console.WriteLine(YearCheckerTwo.showNewestGame().ToString());
+            Console.WriteLine(YearCheckerTwo.showOldestGame().ToString());
             foreach (var item in YearCheckerTwo.showYearTwoGames())
-                item.ShowItem();
+              Console.WriteLine(item.ToString());
         }
     }
 }

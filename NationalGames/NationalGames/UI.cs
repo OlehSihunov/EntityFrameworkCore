@@ -45,13 +45,13 @@ namespace NationalGames
                     string gameName;
                     Console.Write("Enter name of game: ");
                     gameName = Console.ReadLine();
-                    FindGameByID(getGameIdByName(gameName)).ShowItem();
+                    Console.WriteLine(FindGameByID(getGameIdByName(gameName)).ToString());
                     break;
                 case 3:
                     int gameID;
                     Console.Write("Enter game id: ");
                     gameID =Convert.ToInt32(Console.ReadLine());
-                    FindGameByID(gameID).ShowItem();
+                    Console.WriteLine(FindGameByID(gameID).ToString());
                     break;
                 case 4:
                     ShowListOfCountries();
@@ -60,13 +60,13 @@ namespace NationalGames
                     countryID = Convert.ToInt32(Console.ReadLine());
                     foreach (var item in FindGamesByCountry(countryID))
                     {
-                        item.ShowItem();
+                        Console.WriteLine(item.ToString());
                     }
                     break;
                 case 5:
                     Console.WriteLine("Enter countty id: ");
                     countryID = Convert.ToInt32(Console.ReadLine());
-                    FindCountryByID(countryID).ShowItem();
+                    Console.WriteLine(FindCountryByID(countryID).ToString());
                     break;
                 case 6:
                     Console.WriteLine("Enter game name: ");
@@ -122,14 +122,14 @@ namespace NationalGames
         {
             foreach (var item in countries)
             {
-                item.ShowItem();
+                Console.WriteLine(item.ToString());
             }
         }
         private void ShowListOfGames()
         {
             foreach (var item in games)
             {
-                item.ShowItem();
+                Console.WriteLine(item.ToString());
             }
         }
         private void ShowAllGamesAndCountries()

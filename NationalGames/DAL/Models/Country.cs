@@ -14,12 +14,10 @@ namespace NationalGames
         public string Name { get; set; }
 
         public virtual ICollection<Game> Games { get; set; }
-        public void ShowItem()
+        public override string ToString()
         {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"\nID: {this.Id}\nName: {this.Name}\n");
-            Console.ForegroundColor = ConsoleColor.Gray;
-
+            return $"\nID: {this.Id}\nName: {this.Name}\n";
         }
+       
     }
 }

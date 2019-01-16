@@ -11,11 +11,10 @@ namespace NationalGames
         public int? Year { get; set; }
 
         public virtual Country Country { get; set; }
-        public void ShowItem()
+        public override string ToString()
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"\nID: {this.Id}\nCountryID: {this.CountryId}\nName: {this.Name}\nYear: {Year}\n ");
-            Console.ForegroundColor = ConsoleColor.Gray;
+            return $"\nID: {this.Id}\nCountryID: {this.CountryId}\nName: {this.Name}\nYear: {Year}\n ";
         }
+        
     }
 }
