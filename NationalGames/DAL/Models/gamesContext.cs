@@ -21,7 +21,7 @@ namespace NationalGames
         {
             if (!optionsBuilder.IsConfigured)
             {
-                string connectionString = ConfigurationManager.ConnectionStrings["connection_string"].ConnectionString;
+                string connectionString = ConfigurationManager.ConnectionStrings["dbConnect"].ConnectionString;
                 optionsBuilder.UseSqlServer(connectionString);
             }
         }

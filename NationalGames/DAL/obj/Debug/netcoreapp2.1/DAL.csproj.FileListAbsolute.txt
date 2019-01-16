@@ -9,4 +9,3 @@ E:\gitDemos\MyEntityCoreProject\NationalGames\DAL\bin\Debug\netcoreapp2.1\DAL.pd
 E:\gitDemos\MyEntityCoreProject\NationalGames\DAL\obj\Debug\netcoreapp2.1\DAL.dll
 E:\gitDemos\MyEntityCoreProject\NationalGames\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
 E:\gitDemos\MyEntityCoreProject\NationalGames\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
-E:\gitDemos\MyEntityCoreProject\NationalGames\DAL\bin\Debug\netcoreapp2.1\DAL.dll.config
