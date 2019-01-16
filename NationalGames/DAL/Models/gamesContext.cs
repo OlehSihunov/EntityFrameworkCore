@@ -22,8 +22,8 @@ namespace NationalGames
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=.\\sqlexpress;Initial Catalog=games;Integrated Security=True");
+                string connectionString = ConfigurationManager.ConnectionStrings["connection_string"].ConnectionString;
+                optionsBuilder.UseSqlServer(connectionString);
             }
         }
 
