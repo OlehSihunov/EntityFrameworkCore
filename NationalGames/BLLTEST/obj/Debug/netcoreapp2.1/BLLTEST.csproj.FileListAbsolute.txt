@@ -1,0 +1,17 @@
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\BLLTEST.deps.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\BLLTEST.runtimeconfig.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\BLLTEST.runtimeconfig.dev.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\BLLTEST.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\BLL.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\DAL.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\BLL.pdb
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\bin\Debug\netcoreapp2.1\DAL.pdb
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\obj\Debug\netcoreapp2.1\BLLTEST.csprojAssemblyReference.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\obj\Debug\netcoreapp2.1\BLLTEST.csproj.CoreCompileInputs.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\obj\Debug\netcoreapp2.1\BLLTEST.AssemblyInfoInputs.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\obj\Debug\netcoreapp2.1\BLLTEST.AssemblyInfo.cs
+E:\gitDemos\MyEntityCoreProject\NationalGames\BLLTEST\obj\Debug\netcoreapp2.1\BLLTEST.csproj.CopyComplete
