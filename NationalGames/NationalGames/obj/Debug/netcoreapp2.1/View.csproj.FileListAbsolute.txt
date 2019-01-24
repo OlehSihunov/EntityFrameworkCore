@@ -14,5 +14,4 @@ E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp
 E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.csproj.CopyComplete
 E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.dll
 E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\obj\Debug\netcoreapp2.1\View.pdb
-E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\DAL.dll.config
 E:\gitDemos\MyEntityCoreProject\NationalGames\NationalGames\bin\Debug\netcoreapp2.1\View.dll.config

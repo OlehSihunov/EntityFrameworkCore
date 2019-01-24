@@ -13,6 +13,7 @@ namespace NationalGames
         public void StartExpoDAL()
         {
             //add switch case for UI           zZ
+            StarLine();
             Console.WriteLine("Hello user press:");
             Console.WriteLine("1. To get list of games;");
             Console.WriteLine("2. To find Game by name;");
@@ -32,7 +33,7 @@ namespace NationalGames
             } while (!(menuArg > 0 && menuArg < 12));
             menu(menuArg);
             unitOne.Save();
-
+            StarLine();
         }
         private void menu(int menuArg)
         {
@@ -172,7 +173,6 @@ namespace NationalGames
             IEnumerable<Game> result = games.Where(x => x.CountryId == countryID);
             return result;
         }
-        
         private void AddNewCountry(Country newCountry)
         {
             unitOne.Countries.Create(newCountry);
@@ -199,6 +199,14 @@ namespace NationalGames
         {
             unitOne.Games.Delete(id);
         }
-        
+        public static void StarLine()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine();
+            for (int i = 0; i < 50; i++) Console.Write("*");
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Gray;
+
+        }
     }
 }

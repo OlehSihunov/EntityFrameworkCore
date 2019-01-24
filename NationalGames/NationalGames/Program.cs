@@ -12,18 +12,28 @@ namespace NationalGames
            }
         static void Main(string[] args)
         {
-            // StartExpoBLL();
+            
             UI ui = new UI();
+            ui.StartExpoDAL();
+            /* while (true)
+             {
+             ui.StartExpoDAL();
+             };*/
+            StartExpoBLL();
+          
             ui.StartExpoDAL();
             Console.ReadLine();
         }
-        
+
         public static  void StartExpoBLL()
 
         {
-            YearChecker YearCheckerTwo = new YearChecker();
+            IYearChecker YearCheckerTwo = new YearChecker();
             Console.WriteLine(YearCheckerTwo.showNewestGame().ToString());
             Console.WriteLine(YearCheckerTwo.showOldestGame().ToString());
+           
+            foreach (var item in YearCheckerTwo.mixCountries())
+                Console.WriteLine(item.ToString());
             foreach (var item in YearCheckerTwo.showYearTwoGames())
               Console.WriteLine(item.ToString());
         }
