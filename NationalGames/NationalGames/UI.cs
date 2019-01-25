@@ -1,15 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using BLL;
 using System.Linq;
 
 namespace NationalGames
 {
     class UI
     {
+        private readonly IYearChecker YearCheckerOne;
+        public UI(IYearChecker IYearCheckerOne)
+        {
+            YearCheckerOne = IYearCheckerOne;
+        }
         private static UnitOfWork unitOne = new UnitOfWork();
         private IEnumerable<Country> countries = unitOne.Countries.GetItemList();
         private IEnumerable<Game> games = unitOne.Games.GetItemList();
+
+
+        public void StartExpoBLL()
+        {
+            Console.WriteLine(YearCheckerOne.showNewestGame().ToString());
+            Console.WriteLine(YearCheckerOne.showOldestGame().ToString());
+            foreach (var item in YearCheckerOne.showYearTwoGames())
+            {
+                Console.WriteLine(item.ToString());
+            }
+                
+        }
         public void StartExpoDAL()
         {
             //add switch case for UI           zZ

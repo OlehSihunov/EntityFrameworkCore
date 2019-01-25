@@ -1,0 +1,15 @@
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\bin\Debug\netcoreapp2.1\UITest.deps.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\bin\Debug\netcoreapp2.1\UITest.runtimeconfig.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\bin\Debug\netcoreapp2.1\UITest.runtimeconfig.dev.json
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\bin\Debug\netcoreapp2.1\UITest.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\obj\Debug\netcoreapp2.1\UITest.csprojAssemblyReference.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\obj\Debug\netcoreapp2.1\UITest.csproj.CoreCompileInputs.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\obj\Debug\netcoreapp2.1\UITest.AssemblyInfoInputs.cache
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\obj\Debug\netcoreapp2.1\UITest.AssemblyInfo.cs
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\bin\Debug\netcoreapp2.1\UITest.pdb
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\obj\Debug\netcoreapp2.1\UITest.dll
+E:\gitDemos\MyEntityCoreProject\NationalGames\UITest\obj\Debug\netcoreapp2.1\UITest.pdb

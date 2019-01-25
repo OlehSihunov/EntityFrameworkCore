@@ -38,6 +38,13 @@ namespace BLL
             IEnumerable<Game> result = games;
             return result;
         }
+        public Game moveGame(int start,int end)
+        {
+            IEnumerable<Game> games = (new UnitOfWork().Games.GetItemList());
+            Game result = games.Single(x => x.CountryId== start);
+            result.CountryId = end;
+            return result;
+        }
         
     }
 }
