@@ -9,7 +9,7 @@ namespace NationalGames
         static void Main(string[] args)
         {
             
-            UI ui = new UI(new YearChecker());
+            UI ui = new UI(new YearChecker(),new UnitOfWork());
             ui.StartExpoDAL();
             ui.StartExpoBLL();
             while (true)

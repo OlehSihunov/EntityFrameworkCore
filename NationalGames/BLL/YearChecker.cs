@@ -6,7 +6,7 @@ namespace BLL
 {
     public class YearChecker : IYearChecker
     {
-        private Random rnd = new Random();
+        
         public  Game showNewestGame()
         {
             IEnumerable<Game> games = (new UnitOfWork()).Games.GetItemList();
@@ -27,22 +27,11 @@ namespace BLL
             IEnumerable<Game> result = games.Where(x => 2019 - x.Year > 600);
             return result;
         }
-        public IEnumerable<Game> mixCountries()
+     
+        public Game moveGame(Game game,int id)
         {
-            IEnumerable<Game> games = (new UnitOfWork().Games.GetItemList());
-          
-            foreach (Game game in games)
-            {
-                game.CountryId = rnd.Next(0, 8);
-            }
-            IEnumerable<Game> result = games;
-            return result;
-        }
-        public Game moveGame(int start,int end)
-        {
-            IEnumerable<Game> games = (new UnitOfWork().Games.GetItemList());
-            Game result = games.Single(x => x.CountryId== start);
-            result.CountryId = end;
+            Game result = game;
+            result.CountryId = id;
             return result;
         }
         

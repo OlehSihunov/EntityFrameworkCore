@@ -9,13 +9,18 @@ namespace NationalGames
     class UI
     {
         private readonly IYearChecker YearCheckerOne;
-        public UI(IYearChecker IYearCheckerOne)
+        private  UnitOfWork unitOne;
+        private IEnumerable<Country> countries ;
+        private IEnumerable<Game> games ;
+        public UI(IYearChecker YearChecker, UnitOfWork unitOfWork)
         {
-            YearCheckerOne = IYearCheckerOne;
+            YearCheckerOne =YearChecker;
+            unitOne = unitOfWork;
+            countries = unitOne.Countries.GetItemList();
+            games = unitOne.Games.GetItemList();
         }
-        private static UnitOfWork unitOne = new UnitOfWork();
-        private IEnumerable<Country> countries = unitOne.Countries.GetItemList();
-        private IEnumerable<Game> games = unitOne.Games.GetItemList();
+        
+       
 
 
         public void StartExpoBLL()
@@ -26,7 +31,6 @@ namespace NationalGames
             {
                 Console.WriteLine(item.ToString());
             }
-                
         }
         public void StartExpoDAL()
         {
@@ -178,12 +182,30 @@ namespace NationalGames
         }
         private int getCountryIdByName(string name)
         {
-            Country result = countries.Single(x => x.Name == name);
+            Country result=new Country();
+            if (countries.Single(x => x.Name == name)!=null)
+            {
+                result = countries.Single(x => x.Name == name);
+            }
+            else
+            {
+                result.Id = -1;
+            }
+           
+            
             return result.Id;
         }
         private int getGameIdByName(string name)
         {
-           Game result = games.Single(x => x.Name == name);
+            Game result=new Game();
+            if(games.Single(x => x.Name == name) != null)
+            {
+                result = games.Single(x => x.Name == name);
+            }
+            else
+            {
+                result.Id = -1;
+            }
             return result.Id;
         }
         private  IEnumerable<Game> FindGamesByCountry(int countryID)

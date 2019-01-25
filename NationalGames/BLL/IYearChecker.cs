@@ -9,6 +9,6 @@ namespace BLL
        IEnumerable<NationalGames.Game> showYearTwoGames();
          NationalGames.Game showOldestGame();
         NationalGames.Game showNewestGame();
-        IEnumerable<NationalGames.Game> mixCountries();
+        NationalGames.Game moveGame(NationalGames.Game game , int id);
     }
 }
